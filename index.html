@@ -11,4 +11,27 @@
     <button id="btn">click me</button>
     
 </body>
+<script>
+
+    let btn = document.getElementById("btn");
+
+    btn.addEventListener("click", function name(params) {
+
+        let number = prompt();
+
+        if (number >= 5000) {
+
+            // 60% tex
+            let result = document.getElementById("result").innerHTML = number * 40 / 100;
+
+        }
+
+        else {
+            // 50% tex
+            let result = document.getElementById("result").innerHTML = number * 50 / 100;
+        }
+
+    })
+
+</script>
 </html>
